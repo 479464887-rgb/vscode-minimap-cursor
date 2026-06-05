@@ -1,0 +1,23 @@
+{
+  "name": "vscode-minimap-cursor",
+  "displayName": "Minimap Cursor",
+  "version": "1.0.0",
+  "description": "Minimap Cursor \u2014 VS Code extension",
+  "publisher": "devkit",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vscode-minimap-cursor.hello",
+        "title": "Minimap Cursor: Hello"
+      }
+    ]
+  }
+}
